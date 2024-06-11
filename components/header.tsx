@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="px-4 lg:px-6 h-14 flex items-center">
       <Link
-        href="#"
+        href="/"
         className="flex items-center justify-center"
         prefetch={false}
       >
@@ -22,7 +22,7 @@ const Header = () => {
           Shop
         </Link>
         <Link
-          href="#"
+          href="/"
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
         >
