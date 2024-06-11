@@ -66,18 +66,20 @@ export default function Product() {
             <div className="flex items-center justify-between">
               <span className="text-3xl font-bold">$199</span>
               <div className="flex items-center gap-4">
-                <Select defaultValue="1" className="w-24">
-                  <SelectTrigger>
-                    <SelectValue placeholder="Qty" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="1">1</SelectItem>
-                    <SelectItem value="2">2</SelectItem>
-                    <SelectItem value="3">3</SelectItem>
-                    <SelectItem value="4">4</SelectItem>
-                    <SelectItem value="5">5</SelectItem>
-                  </SelectContent>
-                </Select>
+                <div className="w-24">
+                  <Select defaultValue="1">
+                    <SelectTrigger>
+                      <SelectValue placeholder="Qty" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="1">1</SelectItem>
+                      <SelectItem value="2">2</SelectItem>
+                      <SelectItem value="3">3</SelectItem>
+                      <SelectItem value="4">4</SelectItem>
+                      <SelectItem value="5">5</SelectItem>
+                    </SelectContent>
+                  </Select>
+                </div>
                 <Button size="lg">Add to Cart</Button>
               </div>
             </div>
