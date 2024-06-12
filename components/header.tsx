@@ -22,7 +22,7 @@ const Header = () => {
           Shop
         </Link>
         <Link
-          href="/"
+          href="/about"
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
         >
