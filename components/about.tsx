@@ -9,7 +9,7 @@ export default function About() {
           <div className="grid gap-4 px-10 md:grid-cols-2 md:gap-16">
             <div>
               <Image
-                src="/placeholder.svg"
+                src="/model3.png"
                 width="800"
                 height="600"
                 alt="Avant-Garde Fashion"
@@ -57,28 +57,28 @@ export default function About() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <Image
-                src="/placeholder.svg"
+                src="/model1.png"
                 width="400"
                 height="400"
                 alt="Avant-Garde Fashion"
                 className="aspect-square overflow-hidden rounded-xl object-cover"
               />
               <Image
-                src="/placeholder.svg"
+                src="/model2.png"
                 width="400"
                 height="400"
                 alt="Avant-Garde Fashion"
                 className="aspect-square overflow-hidden rounded-xl object-cover"
               />
               <Image
-                src="/placeholder.svg"
+                src="/model3.png"
                 width="400"
                 height="400"
                 alt="Avant-Garde Fashion"
                 className="aspect-square overflow-hidden rounded-xl object-cover"
               />
               <Image
-                src="/placeholder.svg"
+                src="/dress1.png"
                 width="400"
                 height="400"
                 alt="Avant-Garde Fashion"
@@ -118,7 +118,7 @@ export default function About() {
             </div>
             <div>
               <Image
-                src="/placeholder.svg"
+                src="/model1.png"
                 width="600"
                 height="400"
                 alt="Avant-Garde Fashion Studio"
@@ -144,28 +144,28 @@ export default function About() {
             </div>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 w-full max-w-6xl">
               <Image
-                src="/placeholder.svg"
+                src="/shirt1.png"
                 width="300"
                 height="400"
                 alt="Avant-Garde Fashion Product"
                 className="aspect-[3/4] overflow-hidden rounded-xl object-cover"
               />
               <Image
-                src="/placeholder.svg"
+                src="/dress1.png"
                 width="300"
                 height="400"
                 alt="Avant-Garde Fashion Product"
                 className="aspect-[3/4] overflow-hidden rounded-xl object-cover"
               />
               <Image
-                src="/placeholder.svg"
+                src="/jacket1.png"
                 width="300"
                 height="400"
                 alt="Avant-Garde Fashion Product"
                 className="aspect-[3/4] overflow-hidden rounded-xl object-cover"
               />
               <Image
-                src="/placeholder.svg"
+                src="/shirt2.png"
                 width="300"
                 height="400"
                 alt="Avant-Garde Fashion Product"

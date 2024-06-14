@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="w-full pt-12 md:pt-24 lg:pt-32 border-y">
+    <section className="w-full pt-12 md:pt-24 lg:pt-32 border-y pb-10">
       <div className="container space-y-10 xl:space-y-16 px-4 md:px-6">
         <div className="grid max-w-[1300px] mx-auto gap-4 px-4 sm:px-6 md:px-10 md:grid-cols-2 md:gap-16">
           <div>
@@ -35,11 +35,11 @@ const Hero = () => {
             </div>
           </div>
           <Image
-            src="/placeholder.svg"
+            src="/model1.png"
             width="1200"
             height="800"
             alt="Hero"
-            className="mx-auto aspect-[3/2] overflow-hidden rounded-t-xl object-cover object-center"
+            className="mx-auto aspect-[3/2] overflow-hidden rounded-xl object-cover object-center"
           />
         </div>
       </div>
