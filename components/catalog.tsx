@@ -31,7 +31,7 @@ const Catalog = () => {
               <span className="sr-only">View Product</span>
             </Link>
             <Image
-              src="/placeholder.svg"
+              src="/dress1.png"
               alt="Product 1"
               width={500}
               height={500}
@@ -52,7 +52,7 @@ const Catalog = () => {
               <span className="sr-only">View Product</span>
             </Link>
             <Image
-              src="/placeholder.svg"
+              src="/jacket1.png"
               alt="Product 2"
               width={500}
               height={500}
@@ -73,14 +73,14 @@ const Catalog = () => {
               <span className="sr-only">View Product</span>
             </Link>
             <Image
-              src="/placeholder.svg"
+              src="/shirt1.png"
               alt="Product 3"
               width={500}
               height={500}
               className="object-cover w-full h-64"
             />
             <div className="bg-white p-4 dark:bg-gray-950">
-              <h3 className="font-bold text-xl">Avant Garde Pants</h3>
+              <h3 className="font-bold text-xl">Avant Garde Shirt</h3>
               <p className="text-sm text-gray-500">
                 Cutting-Edge and Comfortable
               </p>

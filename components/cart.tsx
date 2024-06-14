@@ -17,7 +17,7 @@ export default function Cart() {
                   <div className="grid grid-cols-[80px_1fr_80px] items-center gap-4 md:gap-6 lg:gap-8">
                     <div>
                       <Image
-                        src="/placeholder.svg"
+                        src="/shirt1.png"
                         alt="Product Image"
                         width={80}
                         height={80}
@@ -45,7 +45,7 @@ export default function Cart() {
                   <div className="grid grid-cols-[80px_1fr_80px] items-center gap-4 md:gap-6 lg:gap-8">
                     <div>
                       <Image
-                        src="/placeholder.svg"
+                        src="/shirt2.png"
                         alt="Product Image"
                         width={80}
                         height={80}
@@ -73,7 +73,7 @@ export default function Cart() {
                   <div className="grid grid-cols-[80px_1fr_80px] items-center gap-4 md:gap-6 lg:gap-8">
                     <div>
                       <Image
-                        src="/placeholder.svg"
+                        src="/dress1.png"
                         alt="Product Image"
                         width={80}
                         height={80}

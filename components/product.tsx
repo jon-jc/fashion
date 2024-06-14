@@ -16,7 +16,7 @@ export default function Product() {
         <div className="container grid gap-8 md:grid-cols-2 items-center">
           <div className="order-2 md:order-1">
             <Image
-              src="/placeholder.svg"
+              src="/blouse1.png"
               width={800}
               height={800}
               alt="Product Image"
@@ -100,14 +100,16 @@ export default function Product() {
                 <span className="sr-only">View</span>
               </Link>
               <Image
-                src="/placeholder.svg"
+                src="/shirt2.png"
                 alt="Related Product 1"
                 width={500}
                 height={400}
                 className="object-cover w-full h-64"
               />
               <div className="bg-white p-4 dark:bg-gray-950">
-                <h3 className="font-bold text-xl">Asymmetric Silk Dress</h3>
+                <h3 className="font-bold text-xl">
+                  Asymmetric Silk Button Up Shirt
+                </h3>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   Avant-garde elegance
                 </p>
@@ -119,7 +121,7 @@ export default function Product() {
                 <span className="sr-only">View</span>
               </Link>
               <Image
-                src="/placeholder.svg"
+                src="/model2.png"
                 alt="Related Product 2"
                 width={500}
                 height={400}
@@ -138,7 +140,7 @@ export default function Product() {
                 <span className="sr-only">View</span>
               </Link>
               <Image
-                src="/placeholder.svg"
+                src="/blouse1.png"
                 alt="Related Product 3"
                 width={500}
                 height={400}
@@ -157,7 +159,7 @@ export default function Product() {
                 <span className="sr-only">View</span>
               </Link>
               <Image
-                src="/placeholder.svg"
+                src="/dress1.png"
                 alt="Related Product 4"
                 width={500}
                 height={400}
