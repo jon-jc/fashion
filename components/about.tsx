@@ -6,7 +6,7 @@ export default function About() {
     <div className="flex flex-col min-h-[100dvh]">
       <section className="w-full pt-12 md:pt-24 lg:pt-32">
         <div className="container space-y-10 xl:space-y-16">
-          <div className="grid gap-4 px-10 md:grid-cols-2 md:gap-16">
+          <div className="grid gap-4 px-10 md:grid-cols-2 md:gap-16 pb-10">
             <div>
               <Image
                 src="/model3.png"
