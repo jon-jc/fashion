@@ -1,4 +1,5 @@
 import { MountainSnowIcon, ShirtIcon } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -10,7 +11,13 @@ const Header = () => {
         className="flex items-center justify-center"
         prefetch={false}
       >
-        <ShirtIcon className="h-6 w-6" />
+        <Image
+          src="/logo.png"
+          alt="Product Image"
+          width={80}
+          height={80}
+          className="rounded-lg object-cover pt-10"
+        />
         <span className="sr-only">Avant Garde Fashion</span>
       </Link>
       <nav className="ml-auto flex gap-4 sm:gap-6">
