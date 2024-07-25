@@ -39,7 +39,7 @@ export function ProductCatalog() {
   const products: Product[] = [
     {
       id: 1,
-      image: "/placeholder.svg",
+      image: "/dress1.png",
       title: "Deconstructed Asymmetric Dress",
       description: "Avant-garde design with unique silhouette",
       price: 450,
@@ -48,7 +48,7 @@ export function ProductCatalog() {
     },
     {
       id: 2,
-      image: "/placeholder.svg",
+      image: "/jacket1.png",
       title: "Sculptural Origami Blouse",
       description: "Innovative folded fabric creates a striking look",
       price: 320,
@@ -57,8 +57,8 @@ export function ProductCatalog() {
     },
     {
       id: 3,
-      image: "/placeholder.svg",
-      title: "Architectural Pleated Skirt",
+      image: "/shirt1.png",
+      title: "Architectural Pleated Shirt",
       description: "Dramatic pleats and geometric lines",
       price: 280,
       category: "Skirts",
@@ -66,7 +66,7 @@ export function ProductCatalog() {
     },
     {
       id: 4,
-      image: "/placeholder.svg",
+      image: "/model1.png",
       title: "Deconstructed Denim Jacket",
       description: "Unique patchwork design with raw edges",
       price: 400,
@@ -75,7 +75,7 @@ export function ProductCatalog() {
     },
     {
       id: 5,
-      image: "/placeholder.svg",
+      image: "/model2.png",
       title: "Avant-Garde Jumpsuit",
       description: "Sleek and modern silhouette with asymmetric details",
       price: 550,
@@ -84,7 +84,7 @@ export function ProductCatalog() {
     },
     {
       id: 6,
-      image: "/placeholder.svg",
+      image: "/model3.png",
       title: "Sculptural Leather Pants",
       description: "Innovative cut and paneling create a futuristic look",
       price: 650,
@@ -235,9 +235,9 @@ export function ProductCatalog() {
             <Image
               src={product.image}
               alt={product.title}
-              width={600}
-              height={600}
-              className="w-full h-full object-cover group-hover:opacity-50 transition-opacity"
+              width={400}
+              height={400}
+              className="w-full object-cover group-hover:opacity-50 transition-opacity"
             />
             <div className="p-4 relative z-20">
               <h3 className="text-xl font-bold">{product.title}</h3>

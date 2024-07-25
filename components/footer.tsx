@@ -15,6 +15,7 @@ const FooterPage = () => {
         >
           Terms of Service
         </Link>
+
         <Link
           href="#"
           className="text-xs hover:underline underline-offset-4"
