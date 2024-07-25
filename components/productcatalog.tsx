@@ -89,7 +89,7 @@ export function ProductCatalog() {
       description: "Innovative cut and paneling create a futuristic look",
       price: 650,
       category: "Pants",
-      size: "L",
+      size: "S",
     },
   ];
 
