@@ -57,7 +57,7 @@ export function ProductCatalog() {
     },
     {
       id: 3,
-      image: "/shirt1.png",
+      image: "/shirt2.png",
       title: "Architectural Pleated Shirt",
       description: "Dramatic pleats and geometric lines",
       price: 280,
