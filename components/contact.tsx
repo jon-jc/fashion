@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 
-export default function Component() {
+export default function ContactPage() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32 bg-white text-black">
       <div className="container px-4 md:px-6">
