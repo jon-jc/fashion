@@ -36,7 +36,7 @@ const Header = () => {
           About
         </Link>
         <Link
-          href="#"
+          href="/contact"
           className="text-sm font-medium hover:underline underline-offset-4"
           prefetch={false}
         >

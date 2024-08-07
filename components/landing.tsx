@@ -24,9 +24,11 @@ export default function Landing() {
                 materials to create truly unique and transformative garments.
               </p>
             </div>
-            <div className="mx-auto w-full max-w-sm space-y-2">
-              <Button size="lg">Explore Our Story</Button>
-            </div>
+            <Link href="/about">
+              <div className="mx-auto w-full max-w-sm space-y-2">
+                <Button size="lg">Explore Our Story</Button>
+              </div>
+            </Link>
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32">
